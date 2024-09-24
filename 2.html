@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h2>Formulario</h2>
+        <!--action defuine o destino dos dados do formulario-->
+        <form action="https://google.com/search" mathod="GET">
+            
+            <label for="name">nome</label>
+            <input id="name" type="text" name="nome">
+            <br>
+            <label for="mail">email</label>
+            <input id="mail" type="email" name="email">
+            <br>
+            <label for="pass">Senha</label>
+            <input id="pass" type="password" name="pass">
+
+            <label for="cpass">Confirmação senha</label>
+            <input id="cpass" type="password" name="cpass">
+            <br>
+            <label for="termos">Aceito todos os temos e dondições: </label>
+            <input id="termos" type="checkbox" name="termos">
+            <br>
+
+            <label for="estado"></label>
+            <select name="uf" id="estado" required>
+                <option value="">Seleciona</option>
+                <option value="SC">SC - Santa Catarina</option>
+                <option value="PR">PR - Paraná</option>
+                <option value="RS">RS - Rio grande do sul</option>
+            </select>
+
+            <label for="">Genero: </label>
+            <br>
+            <label for="">masculino</label>
+            <input type="radio" name="genero" id="masculino" value="masc">
+            <br>
+            <label for="">Femenino</label>
+            <input type="radio" name="genero" id="Femenino" value="fem">
+            <br>
+            <label for="">Outros</label>
+            <input type="radio" name="genero" id="Outros" value="out">
+
+            <input type="submit">
+            <button>sdasfas</button>
+        </form>
+    </div>
+</body>
+</html>
